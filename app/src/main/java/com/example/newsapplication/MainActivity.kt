@@ -77,14 +77,6 @@ fun AppBar() {
                 Row(
                     verticalAlignment = Alignment.CenterVertically // Align image and text vertically
                 ) {
-                    /*Image(
-                        painter = painterResource(id = R.drawable.mercari_logo),
-                        contentDescription = "Mercari Logo", // Accessible description for the image
-                        modifier = Modifier
-                            .size(30.dp) // Adjust size as needed
-                            .padding(end = 8.dp) // Add spacing between image and text
-                    )*/
-
                     Icon(
                         Icons.Filled.Menu, contentDescription = "Localized description",
                         Modifier.padding(end = 10.dp)
